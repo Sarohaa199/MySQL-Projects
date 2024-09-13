@@ -40,4 +40,17 @@ A database for managing patient information and healthcare services. Features in
    ```bash
    git clone https://github.com/sarohaa199/MySQL-Projects.git
 
+2. **Navigate to a Project Folder**:
+   ```bash
+   cd MySQL-Projects/Library-Management-System
+
+3. **Review the SQL Files: Each project folder contains**:
+
+schema.sql: SQL commands to create the database schema.
+data_insertion.sql: SQL commands for inserting sample data.
+queries.sql: SQL queries for data retrieval and analysis.
+
+4. **Check the README File in Each Project Folder**: 
+Each project folder includes a README.md file with detailed information about the project's objectives, design, and outcomes.
+
 This README provides a clear overview of the repository’s contents and instructions on how to get started, navigate, and review each project.
