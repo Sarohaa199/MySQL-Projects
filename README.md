@@ -1,55 +1,74 @@
-# MySQL Projects
+# MySQL Projects Portfolio
 
-Welcome to the **MySQL Projects** repository! This repository features a collection of practical MySQL projects that cover a wide range of database design, implementation, and analysis techniques. Each project provides a unique use case and demonstrates different aspects of working with MySQL.
+Welcome to my SQL project portfolio. This repository showcases a collection of MySQL-based projects covering business analysis, reporting, EDA (exploratory data analysis), and relational data modeling.
 
-## Included Projects
+These projects demonstrate real-world analytical thinking using SQL and provide a strong foundation for data-driven decision-making.
 
-### 1. Library Management System
-A robust database system for managing a personal library. This project involves:
-- Designing tables for `Authors`, `Genres`, and `Books`.
-- Inserting sample data for testing.
-- Analyzing book distribution, author contributions, and publication trends.
+---
 
-### 2. E-commerce Database
-A comprehensive database for managing an e-commerce platform. Features include:
-- Tables for `Products`, `Customers`, `Orders`, and `OrderItems`.
-- Managing product inventory, customer data, and order details.
-- Analyzing sales trends and customer purchase patterns.
+## 📁 Projects Included
 
-### 3. Employee Management System
-A system for managing employee records and departments. This project covers:
-- Tables for `Employees`, `Departments`, and `Salaries`.
-- Tracking employee information, departmental structure, and salary data.
-- Generating reports on employee distribution and salary trends.
+### 1. **Customer and Revenue Analysis — Chinook Database**
+- **Objective:** Analyze customer behavior, revenue trends, and employee performance.
+- **Skills Demonstrated:** Joins, aggregations, window functions, CTEs, group by, subqueries.
+- **Files:**
+  - `/Chinook-Project-1/`: Customer metrics and segmentation
+  - `/Chinook-Project-2/`: Revenue trends and performance analysis
 
-### 4. Online Course Platform
-A database designed for managing an online course platform. Includes:
-- Tables for `Courses`, `Students`, `Enrollments`, and `Instructors`.
-- Managing course offerings, student enrollments, and instructor details.
-- Analyzing course popularity and student enrollment statistics.
+---
 
-### 5. Healthcare Management System
-A database for managing patient information and healthcare services. Features include:
-- Tables for `Patients`, `Doctors`, `Appointments`, and `Treatments`.
-- Tracking patient records, doctor details, and appointment scheduling.
-- Analyzing patient visit trends and treatment outcomes.
+### 2. **Library Management System**
+- **Objective:** Build a database schema for managing books, users, and transactions in a library setting.
+- **Skills Demonstrated:** Database schema design, normalization, foreign keys, queries for CRUD and reports.
+- **Files:**
+  - `/Library-Management-System/`: Schema definition and sample queries
 
-## Getting Started
+---
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/sarohaa199/MySQL-Projects.git
+### 3. **Sales Data Cleaning & EDA — MySQL Data Analysis**
+- **Objective:** Perform raw data cleaning, transformation, and exploratory data analysis using SQL.
+- **Skills Demonstrated:** Data preparation, NULL handling, date transformations, categorization, business logic integration, summary statistics.
+- **Files:**
+  - `/mysql-dataanalysis/`: Cleaned dataset, EDA queries, and insights
 
-2. **Navigate to a Project Folder**:
-   ```bash
-   cd MySQL-Projects/Library-Management-System
+---
 
-3. **Review the SQL Files: Each project folder contains**:
-- schema.sql: SQL commands to create the database schema.
-- data_insertion.sql: SQL commands for inserting sample data.
-- queries.sql: SQL queries for data retrieval and analysis.
+## 📊 Skills Demonstrated
 
-4. **Check the README File in Each Project Folder**: 
-- Each project folder includes a README.md file with detailed information about the project's objectives, design, and outcomes.
+- Data Cleaning & Transformation
+- EDA using SQL
+- Window Functions & CTEs
+- Aggregations & Filtering
+- Joins, Subqueries, Grouping
+- Reporting Metrics & KPIs
+- Database Design Principles
 
-This README provides a clear overview of the repository’s contents and instructions on how to get started, navigate, and review each project.
+---
+
+## 🛠️ Tools Used
+
+- **Database:** MySQL Community Server
+- **IDE:** MySQL Workbench, VS Code
+- **Version Control:** Git & GitHub
+
+---
+
+## 📌 How to Use
+
+To explore each project:
+
+1. Clone this repository.
+2. Navigate to any folder, open the `.sql` scripts using MySQL Workbench or compatible IDE.
+3. Load the corresponding dataset (if provided or mentioned).
+4. Run the queries and review the analysis comments.
+
+---
+
+## 🔗 Connect with Me
+
+- **LinkedIn:** [https://www.linkedin.com/in/aman2805](https://www.linkedin.com/in/aman2805)
+- **Email:** [sarohaa199@gmail.com](mailto:sarohaa199@gmail.com)
+
+---
+
+> “In God we trust. All others must bring data.” – W. Edwards Deming
