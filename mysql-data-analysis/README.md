@@ -1,33 +1,83 @@
-# MySQL Data Analysis Repository
+# MySQL Data Cleaning and Exploratory Data Analysis (EDA)
 
-## Overview
+## 📊 Project Overview
 
-This repository contains a collection of MySQL scripts for data management, analysis, and exploration. The scripts are organized into several key sections to help with various data-related tasks:
+This project demonstrates end-to-end **data cleaning**, **transformation**, and **exploratory data analysis (EDA)** using raw sales data in **MySQL**. The primary objective is to simulate a real-world scenario where unstructured or messy data is cleaned, analyzed, and transformed into actionable insights using only SQL.
 
-1. **Data Cleaning**:
-   - **Staging Table Creation**: Create a staging table to work with raw data.
-   - **Remove Duplicates**: Identify and remove duplicate entries from datasets.
-   - **Standardize Data**: Clean and standardize data entries for consistency.
-   - **Handle Null Values**: Manage and clean null values to ensure data quality.
-   - **Remove Unnecessary Data**: Drop columns or rows that are not needed.
+## 🧰 Tools & Technologies
 
-2. **Stored Procedures**:
-   - **Basic Procedures**: Create and call simple stored procedures to encapsulate queries.
-   - **Complex Procedures**: Manage more complex stored procedures using delimiters and blocks.
+- **Database**: MySQL
+- **Language**: SQL (DDL, DML, CTEs, Window Functions)
+- **Tools Used**: MySQL Workbench, Git, GitHub
 
-3. **Triggers**:
-   - **Basic Triggers**: Set up triggers to automatically execute actions based on data changes.
-   - **Example**: Update related tables or perform actions upon data insertion.
+## 🧹 Project Workflow
 
-4. **Events**:
-   - **Scheduled Events**: Create events for scheduled tasks such as periodic data cleanup or updates.
+### 1. Data Cleaning
 
-5. **Exploratory Data Analysis (EDA)**:
-   - **Basic Queries**: Perform initial data exploration to identify key statistics and outliers.
-   - **Aggregate Analysis**: Group and aggregate data to uncover trends and patterns.
-   - **Advanced Analysis**: Use CTEs and window functions for deeper insights and rolling calculations.
+Performed cleaning operations on raw imported tables such as:
+- Standardizing **date formats**
+- Removing **duplicates**
+- Filling or filtering **null values**
+- Standardizing **text/categorical fields**
+- Creating derived columns for analysis
 
-## Getting Started
+### 2. Exploratory Data Analysis (EDA)
 
-1. **Clone the Repository**:
-   git clone https://github.com/sarohaa199/mysql-data-analysis.git
+- Basic aggregations: total revenue, average sales, product counts
+- Customer segmentation by behavior/spend
+- Time-based analysis (monthly/quarterly/yearly)
+- Product/category performance
+- Outlier detection using statistical SQL logic
+
+## 📁 File Structure
+
+MySQL-Projects/
+│
+└── MySQL-DataAnalysis/
+├── layoffs.csv # Table creation and raw inserts
+├── data_cleaning.sql # Cleaning transformations
+├── eda_queries.sql # Insights and visual-ready analysis
+└── README.md # Documentation
+
+
+## 🔎 Key Skills Demonstrated
+
+- Efficient use of **CTEs**, **Joins**, **Subqueries**
+- Applied **CASE WHEN**, **Window Functions**, **Aggregations**
+- Business understanding applied to query design
+- Prepared data for potential dashboarding (Power BI/Tableau)
+
+## 🚀 How to Run
+
+1. Import `layoffs.csv` into your SQL environment.
+2. Run `data_cleaning.sql` to clean and transform.
+3. Execute `eda_queries.sql` to view business insights.
+
+## 🎯 Business Impact
+
+This project simulates how raw data from a transactional system can be:
+- Cleaned and normalized
+- Analyzed to support decision making
+- Transformed to feed into BI dashboards
+
+## 📌 Future Enhancements
+
+- Add visualizations in **Power BI**
+- Export clean tables as **CSV** for Python integration
+- Implement **stored procedures** for reusable logic
+
+## 👨‍💼 About Me
+
+I’m a **software engineer** transitioning into **data analytics**, focusing on:
+
+- SQL (Advanced querying, DML/DDL, analysis)
+- Excel & Power BI for dashboarding
+- Python (pandas, automation, data prep)
+
+📫 Connect with Me  
+🔗 [LinkedIn](https://www.linkedin.com/in/aman2805)  
+📧 sarohaa199@gmail.com
+
+---
+
+**⭐ If you found this project useful, star the repository and connect!**
