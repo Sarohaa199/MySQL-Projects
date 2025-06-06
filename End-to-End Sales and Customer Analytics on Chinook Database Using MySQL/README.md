@@ -27,4 +27,4 @@ This repository contains SQL projects using the Chinook sample database to showc
 ## About Me
 I am a software engineer transitioning into data analytics, actively developing skills in SQL, Excel, Power BI, and Python.
 
-Connect with me on [LinkedIn](www.linkedin.com/in/aman2805) or email me at sarohaa199@gmail.com.
+Connect with me on [LinkedIn](https://www.linkedin.com/in/aman2805) or email me at sarohaa199@gmail.com.
